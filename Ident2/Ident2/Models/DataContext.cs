@@ -12,5 +12,7 @@ namespace Ident2.Models
         {
 
         }
+
+        public System.Data.Entity.DbSet<Ident2.Models.Persona2> Persona2 { get; set; }
     }
 }
